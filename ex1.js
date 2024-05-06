@@ -8,19 +8,21 @@
 /**
  * Cambia el título de la página a rojo usando un estilo en línea
  */
+document.querySelector("h1").style.color = "red";
 
 /**
  * Cambia el tamaño del título de la página a 48px usando un estilo en línea
  */
-
+document.querySelector("h1").style.fontSize = "48px"
 /**
  * Muestra por console.log el texto de la caja 2
  */
-
+let textoDelCaja2 = document.querySelector("#caja-2").textContent
+console.log(textoDelCaja2);
 /**
  * Cambia el color del borde del párrafo p.intro a verde usando un estilo en línea
  */
-
+document.querySelector("p.intro").style.borderColor = "green";
 /**
  * Elimina la clase "estilo-3" de la última caja.
  * Ayuda: https://www.w3schools.com/howto/howto_js_remove_class.asp
